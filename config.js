@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://sulfurbottom.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: "SulfurBottom's Lair",
+  subtitle: "SulfurBottom's Tech Blog",
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -25,19 +25,19 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'SulfurBottom',
+    photo: '/photo.png',
+    bio: 'Greedy Software Engineer',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: '397love@gmail.com',
+      facebook: '',
+      telegram: 'kimseulki',
+      twitter: '',
+      github: 'rlatmfrl24',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'seul-ki-kim-112186144',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: ''
