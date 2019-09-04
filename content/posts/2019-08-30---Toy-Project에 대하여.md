@@ -7,7 +7,7 @@ slug: "/posts/Toy-Project에-대하여/"
 category: "Doodle"
 tags:
   - "Toy Project"
-description: ""
+description: "나는 개발 1년차 중간에 업무가 붕 떠버려서 작업도 없고 목표도 방황만 하면서 2달을 보낸 시기가 있었다. 그래서 놀면 뭐하나싶어서 개발이나 아무거나 만들어보자 싶었던게 Hitomi Downloader(-_-;;)였다. 사실 GitHub에 누군가 만들어놓은 우수한 기능의 [Hitomi Downloader](https://github.com/KurtBestor/Hitomi-Downloader-issues)가 있었지만, 난 좀더 개인적인 기능이 필요했다.(하지만 저 프로그램은 너무 우월해서 결국 같이 쓰게 됐다.)"
 socialImage: ""
 ---
 
@@ -37,4 +37,4 @@ Selenium과 WindowBuilder를 활용한 나의 첫 프로젝트는 무사히 완�
 
 여기까지 주저리주저리 나의 Toy Project에 대한 히스토리를 얘기해보았다. 아마 평균 이상되는 개발자분들이 본다면 한숨쉬시며 꿀밤이라도 쥐어박고 싶은 한심한 개발스토리지만, 개인적으로 매우 즐거운 과정이었다.
 
-이 포스트를 계기로 앞서 언급한 게시글 수집기를 좀더 발전시켜 보고자한다. 이제 Concept부터 기획, 설계, UI/UX 개발까지 벌써 3번째 초기화된 개발이다. 심지어 이 컨셉으로 만들어진 (사이트)[https://issuelink.co.kr]도 이미 존재한다. 하지만, 아마 Concept 연구 단계에서 좀 변형될거고 좀더 재미있는 프로젝트 컨셉이 나올거라고 생각한다.
+이 포스트를 계기로 앞서 언급한 게시글 수집기를 좀더 발전시켜 보고자한다. 이제 Concept부터 기획, 설계, UI/UX 개발까지 벌써 3번째 초기화된 개발이다. 심지어 이 컨셉으로 만들어진 [사이트](https://issuelink.co.kr)도 이미 존재한다. 하지만, 아마 Concept 연구 단계에서 좀 변형될거고 좀더 재미있는 프로젝트 컨셉이 나올거라고 생각한다.
