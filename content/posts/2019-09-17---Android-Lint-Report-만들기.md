@@ -1,5 +1,5 @@
 ---
-title: Android List Report 만들기
+title: Android Lint Report 만들기
 date: "2019-09-17T00:00:11.210Z"
 template: "post"
 draft: false
