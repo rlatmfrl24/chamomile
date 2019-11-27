@@ -9,7 +9,7 @@ tags:
   - "Kotlin"
   - "Matrix"
   - "Algorithm"
-description: ""
+description: "Kotlin 관련 알고리즘 문제 진행중 행렬곱 관련 Boilerplate를 발견해서 메모해둔다."
 socialImage: ""
 ---
 
@@ -33,5 +33,3 @@ private fun matrixMulti(arr1: Array<IntArray>, arr2: Array<IntArray>): Array<Int
     return result
 }
 ```
-
-
