@@ -5,22 +5,20 @@ module.exports = {
   introduction: `Front-End Developer. Like Develop, Travel, Friend.`,
   siteUrl: `https://sulfurbottom.netlify.com`, // Your blog site url
   social: {
-    twitter: ``, // Your Twitter account
-    github: ``, // Your GitHub account
-    medium: ``, // Your Medium account
-    facebook: ``, // Your Facebook account
+    github: `rlatmfrl24`, // Your GitHub account
+    linkedin: `seul-ki-kim-112186144`,
   },
-  icon: `content/assets/felog.png`, // Add your favicon
+  icon: `content/assets/whale.jpg`, // Add your favicon
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    utterances: 'rlatmfrl24/chamomile', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: 'SulfurBottom',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
