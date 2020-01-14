@@ -6,6 +6,8 @@ lang: 'en'
 
 # Seul-Ki Kim
 
+<!-- ![](../assets/profile.png) -->
+
 ## Career
 
 - **Android Developer** ( 2018-10 ~ )
@@ -18,13 +20,37 @@ Konkuk University, Computer Engineering, Software Engineering
 ## Skills & Experience
 
 - **Programming Languages**
-  </br>Python, Kotlin, Javascript, Java, Dart
+
+  <a href='https://kotlinlang.org/'><img src='../assets/logo/kotlin.svg' height=40/></a>&emsp;<a href=''><img src='../assets/logo/python.svg' height=40 width=40></a>&emsp;
+  <a href=''><img src='../assets/logo/javascript.svg' height='40' width=40></a>&emsp;
+  <a href=''><img src='../assets/logo/typescript.svg' height='40' width=40></a>&emsp;
+  <a href=''><img src='../assets/logo/dart.svg' height='40' width=40></a>&emsp;
+  <a href=''><img src='../assets/logo/java.svg' height='40' width=40></a>&emsp;
+
 - **Framework & Library**
-  </br>Android, Node.js, Express.js, React JS, Django, Tensorflow, Solr, Selenium
-- **Databases**
-  </br>Firestore, MongoDB, MySQL
+
+  <a href=''><img src='../assets/logo/android.svg' height='40' width=40></a>&emsp;
+  <a href=''><img src='../assets/logo/flutter.svg' height='40' width=40></a>&emsp;
+  <a href=''><img src='../assets/logo/firebase.svg' height='40' width=40></a>&emsp;
+  <a href=''><img src='../assets/logo/nodejs.svg' height='40' width=40></a>&emsp;
+  <a href=''><img src='../assets/logo/expressjs.svg' height='40' width=40></a>&emsp;
+  <a href=''><img src='../assets/logo/react.svg' height='40' width=40></a>&emsp;
+  <a href=''><img src='../assets/logo/mobx.svg' height='40' width=40></a>&emsp;
+  <a href=''><img src='../assets/logo/gatsby.svg' height='40' width=40></a>&emsp;
+  <a href=''><img src='../assets/logo/django.svg' height='40' width=40></a>&emsp;
+  <a href=''><img src='../assets/logo/tensorflow.svg' height='40' width=40></a>&emsp;
+
+* **Databases**
+
+  <a href=''><img src='../assets/logo/mongodb.svg' height='40' width=40></a>&emsp;
+  <a href=''><img src='../assets/logo/mysql.svg' height='40' width=40></a>&emsp;
+
 - **ETC**
-  </br>GCP, Git
+
+  <a href=''><img src='../assets/logo/google-cloud.svg' height='40' width=40></a>&emsp;
+  <a href=''><img src='../assets/logo/git-icon.svg' height='40' width=40></a>&emsp;
+  <a href=''><img src='../assets/logo/selenium-logo.svg' height='40' width=40></a>&emsp;
+  <a href=''><img src='../assets/logo/solr.svg' height='40' width=40></a>&emsp;
 
 ## Corporate Projects
 
