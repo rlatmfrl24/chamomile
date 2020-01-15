@@ -75,6 +75,16 @@ HTML Source를 DOM-based 기반 구조를 통하여 분석하여 해당 Source�
 
 해운물류업에서 활용하는 Freight 거래 플랫폼 전용 Android Application 개발 참여
 
+<p align="center">
+<img src='./images/freight9-1.gif' width='100px'>&emsp;
+<img src='./images/freight9-2.gif' width='100px'>&emsp;
+<img src='./images/freight9-3.gif' width='100px'>&emsp;
+<img src='./images/freight9-4.gif' width='100px'>&emsp;
+<img src='./images/freight9-5.gif' width='100px'>&emsp;
+<img src='./images/freight9-6.gif' width='100px'>&emsp;
+<img src='./images/freight9-7.gif' width='100px'>&emsp;
+</p>
+
 - **Duration** : 2018-10 ~ (진행중)
 - **Role** : Sign-In 모듈 및 화면 개발 담당, Port 선택 및 즐겨찾기 모듈 및 화면 개발 담당, GitLab 관리 담당
 - **Skills** : Kotlin, RxKotlin, Dagger2, Room, Retrofit, RxLifeCycle, Stetho, Timber
@@ -97,6 +107,8 @@ HTML Source를 DOM-based 기반 구조를 통하여 분석하여 해당 Source�
 - **References** : [Back-End](https://github.com/rlatmfrl24/applemint-firebase), [Web](https://rlatmfrl24.github.io/applemint-web), [Android](https://rlatmfrl24.github.io/applemint)
 
 ## Contact Me
+
+- Email : 397love@gmail.com
 
 </br>
 <div align="center">
