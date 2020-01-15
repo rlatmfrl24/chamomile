@@ -2,7 +2,7 @@
 title: React Enviroment 설정
 date: '2019-11-26 00:00:11'
 draft: false
-category: 'React'
+category: 'Javascript'
 ---
 
 오랜간만에 블로그로 복귀했다.

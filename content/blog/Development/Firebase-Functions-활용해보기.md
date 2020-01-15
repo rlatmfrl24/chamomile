@@ -2,7 +2,7 @@
 title: Firebase Functions 활용해보기
 date: '2019-11-26 00:00:11'
 draft: false
-category: 'Firebase'
+category: 'Development'
 ---
 
 ## 들어가기 전에

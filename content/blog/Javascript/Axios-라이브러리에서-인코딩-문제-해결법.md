@@ -2,7 +2,7 @@
 title: Axios 라이브러리에서 인코딩 문제 해결법
 date: '2019-09-16 00:00:11'
 draft: false
-category: 'Node.js'
+category: 'Javascript'
 ---
 
 Node.js로 웹 크롤러를 제작하다가 euc-kr으로 인코딩된 페이지에서는 글자가 깨지는 문제가 발생하여 해결법을 알아보았다.
