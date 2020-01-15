@@ -2,7 +2,7 @@
 title: React에 MobX 적용해보기
 date: '2019-11-26 00:00:11'
 draft: false
-category: 'React'
+category: 'Javascript'
 ---
 
 ### 들어가기 전에

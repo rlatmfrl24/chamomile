@@ -2,7 +2,7 @@
 title: React Hook 간단 설명
 date: '2019-11-26 00:00:11'
 draft: false
-category: 'React'
+category: 'Javascript'
 ---
 
 #### React 16.8 버전부터 정식으로 릴리즈되어 화제가 된 Hook에 대한 간략한 설명과 사용법을 메모해둔다.

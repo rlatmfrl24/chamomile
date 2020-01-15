@@ -2,7 +2,7 @@
 title: Firebase init 401 error 대처법
 date: '2019-09-02 00:00:11'
 draft: false
-category: 'Node.js'
+category: 'Javascript'
 ---
 
 Node.js 환경에서 Firebase init 수행시 OAuth 획득 과정에서 401 에러가 발생하는 경우가 있다.</br>
