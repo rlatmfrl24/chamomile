@@ -5,8 +5,6 @@ category: development
 draft: false
 ---
 
-# Heroku, Docker, Prisma2를 활용한 GraphQL Server 제작해보기
-
 이번에 신규 Toy Project인 Spearmint를 시작하면서 Serverless 개념으로부터 벗어나기로 보기로 다짐했다. Firebase, Serverless를 비롯한 Serverless Service들은 편리하지만 SDK 의존성이 높고, 성능 활용 범위가 제한적이라는 단점이 있다. 이번에 만들어보는 프로젝트도 사실 기능이 복잡하지 않지만, 기술적 시야를 넓히기 위해 직접 Server를 구현하기로 마음먹었다.
 
 본론으로 들어가서, Server 기반은 **Heroku**, ORM Framework는 **Prisma**, API 통신 방식은 **GraphQL**, 배포방식은 **Docker**를 활용해보기로 했다.
