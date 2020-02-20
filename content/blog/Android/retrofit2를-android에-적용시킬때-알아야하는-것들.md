@@ -234,28 +234,28 @@ open class RaindropInterceptor(private val currentUser: CurrentUser) : Intercept
 
 > AppModule.kt
 
-```kt{17}
-    //OkHttpClient
-    single {
-        OkHttpClient.Builder()
-            .addInterceptor(HttpLoggingInterceptor().apply { level = HttpLoggingInterceptor.Level.BODY })   //Http Logger
-            .addInterceptor(RaindropInterceptor(get())) //Custom Interceptor
-            .connectTimeout(CONNECT_TIMEOUT, TimeUnit.SECONDS)
-            .readTimeout(READ_TIMEOUT, TimeUnit.SECONDS)
-            .writeTimeout(WRITE_TIMEOUT, TimeUnit.SECONDS)
-            .build()
-    }
+```js{17}
+//OkHttpClient
+single {
+    OkHttpClient.Builder()
+        .addInterceptor(HttpLoggingInterceptor().apply { level = HttpLoggingInterceptor.Level.BODY })   //Http Logger
+        .addInterceptor(RaindropInterceptor(get())) //Custom Interceptor
+        .connectTimeout(CONNECT_TIMEOUT, TimeUnit.SECONDS)
+        .readTimeout(READ_TIMEOUT, TimeUnit.SECONDS)
+        .writeTimeout(WRITE_TIMEOUT, TimeUnit.SECONDS)
+        .build()
+}
 
-    //Retrofit
-    single {
-        Retrofit.Builder()
-            .baseUrl(RaindropAPI.EndPoint.baseURL)
-            .client(get())
-            .addConverterFactory(GsonConverterFactory.create())
-            .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-            .build()
-            .create(RaindropAPI::class.java)
-    }
+//Retrofit
+single {
+    Retrofit.Builder()
+        .baseUrl(RaindropAPI.EndPoint.baseURL)
+        .client(get())
+        .addConverterFactory(GsonConverterFactory.create())
+        .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
+        .build()
+        .create(RaindropAPI::class.java)
+}
 ```
 
 ## 정리
