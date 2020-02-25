@@ -1,7 +1,7 @@
 ---
 title: Retrofit2를 Android에 적용시킬때 알아야하는 것들
 date: 2020-02-18 07:02:51
-category: android
+category: Android
 draft: false
 ---
 
@@ -234,7 +234,7 @@ open class RaindropInterceptor(private val currentUser: CurrentUser) : Intercept
 
 > AppModule.kt
 
-```js{17}
+```js{16}
 //OkHttpClient
 single {
     OkHttpClient.Builder()
