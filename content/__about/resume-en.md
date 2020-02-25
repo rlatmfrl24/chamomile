@@ -87,7 +87,11 @@ HTML Source를 DOM-based 기반 구조를 통하여 분석하여 해당 Source�
 
 - **Duration** : 2018-10 ~ (진행중)
 - **Role** : Sign-In 모듈 및 화면 개발 담당, Port 선택 및 즐겨찾기 모듈 및 화면 개발 담당, GitLab 관리 담당
-- **Skills** : Kotlin, RxKotlin, Dagger2, Room, Retrofit, RxLifeCycle, Stetho, Timber
+- **Skills** : RxKotlin, Dagger2, Room, Retrofit, RxLifeCycle, Stetho, Timber
+  - Lottie, Retrofit을 활용한 Login Module 구현
+  - RxKotlin, RxLiftCycle을 활용한 Rx 프로그래밍
+  - Treeview Library를 활용한 계층형 List 구현
+  - ViewPager2-TabLayout를 활용한 Route 선택 화면 구현
 
 ## Personal Projects
 
@@ -103,7 +107,13 @@ HTML Source를 DOM-based 기반 구조를 통하여 분석하여 해당 Source�
 </p>
 
 - **Duration** : 4 months
-- **Skills** : Node.js, Firebase, React JS, Android
+- **Skills** : Node.js, Firebase, React JS, AndroidX
+  - Firebase를 활용한 Serverless Back-End 구현
+  - Koin를 활용한 MVVM Architecture 적용
+  - Recyclerview-ListAdapter 적용
+  - Room-LiveData를 활용한 Data-Binding 적용
+  - React-MobX를 활용한 Data Store 구현
+  - Gestalt Library를 활용한 Web UI 구현
 - **References** : [Back-End](https://github.com/rlatmfrl24/applemint-firebase), [Web](https://rlatmfrl24.github.io/applemint-web), [Android](https://rlatmfrl24.github.io/applemint)
 
 ## Contact Me
