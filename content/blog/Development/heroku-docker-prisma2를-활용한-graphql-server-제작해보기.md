@@ -1,7 +1,7 @@
 ---
 title: Heroku, Docker, Prisma2를 활용한 GraphQL Server 제작해보기
 date: 2020-01-16 16:01:03
-category: development
+category: Development
 draft: false
 ---
 
