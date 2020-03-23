@@ -199,3 +199,7 @@ Mutation(
 ## 정리
 
 예제 위주의 단순한 설명이었지만, 이렇게 하나의 프로젝트 적용 예시를 만들기 전까지 꽤나 오랜 시간이 걸렸다. 원래는 Spearmint 프로젝트에 활용하려고 했으나 Spearmint의 특징상 Heroku에 유지하기가 쉽지 않아서 이번에는 단순히 예제 위주로 진행할 생각이다.
+
+## 참고자료
+
+[/ graphql / flutter](https://hasura.io/learn/graphql/flutter-graphql/queries/2-create-query/)
