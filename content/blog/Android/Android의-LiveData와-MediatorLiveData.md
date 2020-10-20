@@ -33,7 +33,7 @@ feature().observe(this, Observer{
 
 ```
 
-this 자리에는 Lifecycle Owner가 들어가야하며, 대개 Context를 가진 객체를 요구한다. Observer 객체 내부에는 LiveData의 상태 변화시에 처리해야할 동작을 구성한다.
+`this` 자리에는 *Lifecycle Owner*가 들어가야하며, 대개 *Context*를 가진 객체를 요구한다. _Observer_ 객체 내부에는 LiveData의 상태 변화시에 처리해야할 동작을 구성한다.
 
 ## MutableLiveData
 
@@ -57,6 +57,12 @@ MutableData.value = "newValue"
 
 이런식으로 값을 변경시켜주면 되고, 해당 변경내역은 Observer들에게 전달된다.
 
+또한, 다음과 같은 방식으로도 MutableLiveData에 값을 전달하는 것도 가능하다
+
+```kotlin
+MutableData.postValue("newValue")
+```
+
 ## MediatorLiveData
 
 만약 다수의 LiveData를 묶어서 Observing하고 싶다면 MediatorLiveData를 사용한다.
@@ -75,4 +81,26 @@ MergedData.addSource(Data1){ ... }
 
 MergedData.addSource(Data2){ ... }
 
+```
+
+위와 같이 설정하면 `MergeData`에 소속된 LiveData들이 변경될 때매다 `{ ... }` 내부의 동작이 수행되며 해당 결과를 Return 해주어야 한다.
+
+만약 **MediatorLiveData**가 묶어서 Observing해야할 Data가 많다면 다음과 같은 기능함수를 Override하여 응용할 수 있다.
+
+`BaseUtil.kt`
+
+```kotlin
+fun <T> MediatorLiveData<T>.addSourceList(vararg liveDataArgument: MutableLiveData<*>, onChanged: () -> T) {
+    liveDataArgument.forEach {
+        this.addSource(it) { value = onChanged() }
+    }
+}
+```
+
+`MainActivity.kt`
+
+```kotlin
+val receivers = MediatorLiveData<List<User>?>().apply {
+    this.addSourceList(basicReceiver, additionalReceiverList) { getReceivers() }
+}
 ```

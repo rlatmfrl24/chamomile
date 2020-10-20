@@ -1,6 +1,6 @@
 ---
 title: Android 신규 개념 정리
-date: '2019-11-27 00:00:11'
+date: '2099-11-27 00:00:11'
 draft: false
 category: 'Android'
 ---
@@ -15,22 +15,37 @@ category: 'Android'
 
 ## 목록
 
-- [Android Koin-ViewModel-Room 적용해보기](https://sulfurbottom.netlify.com/Android/Android-Koin-ViewModel-Room-적용해보기/)
+### Architecture
 
+- [Android Koin-ViewModel-Room 적용해보기](https://sulfurbottom.netlify.com/Android/Android-Koin-ViewModel-Room-적용해보기/)
+  - 해당 포스트는 내용을 세분화할 예정
+  - Android에서 Room 적용해보기
+  - Android에서 Koin을 활용한 MVVM 적용해보기
+  - Koin을 활용한 Fragment 간 ViewModel 공유하기
+- Android Databinding 적용해보기
+  - RecylcerView에도 데이터바인딩 적용해보기
+  - Two-way Databinding 적용해보기
 - [Android의 LiveData와 MediatorLiveData](https://sulfurbottom.netlify.com/Android/Android의-LiveData와-MediatorLiveData/)
 
-- [Android RecyclerView에 좌우 Swipe + Backgroud 적용해보기](https://sulfurbottom.netlify.com/Android/Android-RecyclerView에-좌우-Swipe-Backgroud-적용해보기/)
-
-- [Android SwipeRefreshLayout 적용 후기](https://sulfurbottom.netlify.com/Android/Android-SwipeRefreshLayout-적용-후기/)
-
-- [Android Debug용 유용한 라이브러리](https://sulfurbottom.netlify.com/Android/Android-SwipeRefreshLayout-적용-후기/posts/Android-Debug용-유용한-라이브러리/)
+### UI
 
 - [Android RecyclerView의 ListAdapter](https://sulfurbottom.netlify.com/Android/Android-RecyclerView의-ListAdapter/)
-
+- [Android RecyclerView Data Observer](https://sulfurbottom.netlify.com/Android/Android-RecyclerView-Data-Observer/)
+- [Android RecyclerView XML 미리보기](https://sulfurbottom.netlify.com/Android/Android-RecyclerView-XML-미리보기/)
+- [Android RecyclerView에 좌우 Swipe + Backgroud 적용해보기](https://sulfurbottom.netlify.com/Android/Android-RecyclerView에-좌우-Swipe-Backgroud-적용해보기/)
+- Android Custom View 제작해보기
+- [Android Fragment와 ViewPager2를 활용한 화면 구성하기](https://sulfurbottom.netlify.com/Android/android-fragment와-viewpager2를-활용한-화면-구성하기)
+- [ActivityResultLauncher 활용해보기](https://sulfurbottom.netlify.com/Android/activityresultlauncher-활용해보기)
+- [Android SwipeRefreshLayout 적용 후기](https://sulfurbottom.netlify.com/Android/Android-SwipeRefreshLayout-적용-후기/)
 - [Android ConstraintSet을 통한 애니메이션 적용](https://sulfurbottom.netlify.com/Android/Android-ConstraintSet을-통한-애니메이션-적용/)
-
 - [Android DrawerLayout 적용해보기](https://sulfurbottom.netlify.com/Android/Android-DrawerLayout-적용해보기/)
 
-- [Android RecyclerView Data Observer](https://sulfurbottom.netlify.com/Android/Android-RecyclerView-Data-Observer/)
+### Debugging
 
+- [Android Debug용 유용한 라이브러리](https://sulfurbottom.netlify.com/Android/Android-Debug용-유용한-라이브러리/)
+
+### ETC
+
+- [Android Studio에서 유용한 플러그인 모음](https://sulfurbottom.netlify.com/Android/android-studio에서-유용한-플러그인-모음)
+- [Android GPS Location 획득하기](https://sulfurbottom.netlify.com/Android/android-gps-location-획득하기)
 - [Kotlin Built-In 함수 활용법 정리(filter, map, let, apply, also)](https://sulfurbottom.netlify.com/Development/Kotlin-Built-In-함수-활용법-정리/)
