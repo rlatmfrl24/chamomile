@@ -15,22 +15,22 @@ category: 'Android'
 
 ## 목록
 
-- [Android Koin-ViewModel-Room 적용해보기](https://sulfurbottom.netlify.com/posts/Android-Koin-ViewModel-Room-적용해보기/)
+- [Android Koin-ViewModel-Room 적용해보기](https://sulfurbottom.netlify.com/Android/Android-Koin-ViewModel-Room-적용해보기/)
 
-- [Android의 LiveData와 MediatorLiveData](https://sulfurbottom.netlify.com/posts/Android의-LiveData와-MediatorLiveData/)
+- [Android의 LiveData와 MediatorLiveData](https://sulfurbottom.netlify.com/Android/Android의-LiveData와-MediatorLiveData/)
 
-- [Android RecyclerView에 좌우 Swipe + Backgroud 적용해보기](https://sulfurbottom.netlify.com/posts/Android-RecyclerView에-좌우-Swipe-Backgroud-적용해보기/)
+- [Android RecyclerView에 좌우 Swipe + Backgroud 적용해보기](https://sulfurbottom.netlify.com/Android/Android-RecyclerView에-좌우-Swipe-Backgroud-적용해보기/)
 
-- [Android SwipeRefreshLayout 적용 후기](https://sulfurbottom.netlify.com/posts/Android-SwipeRefreshLayout-적용-후기/)
+- [Android SwipeRefreshLayout 적용 후기](https://sulfurbottom.netlify.com/Android/Android-SwipeRefreshLayout-적용-후기/)
 
-- [Android Debug용 유용한 라이브러리](https://sulfurbottom.netlify.com/posts/Android-SwipeRefreshLayout-적용-후기/posts/Android-Debug용-유용한-라이브러리/)
+- [Android Debug용 유용한 라이브러리](https://sulfurbottom.netlify.com/Android/Android-SwipeRefreshLayout-적용-후기/posts/Android-Debug용-유용한-라이브러리/)
 
-- [Android RecyclerView의 ListAdapter](https://sulfurbottom.netlify.com/posts/Android-RecyclerView의-ListAdapter/)
+- [Android RecyclerView의 ListAdapter](https://sulfurbottom.netlify.com/Android/Android-RecyclerView의-ListAdapter/)
 
-- [Android ConstraintSet을 통한 애니메이션 적용](https://sulfurbottom.netlify.com/posts/Android-ConstraintSet을-통한-애니메이션-적용/)
+- [Android ConstraintSet을 통한 애니메이션 적용](https://sulfurbottom.netlify.com/Android/Android-ConstraintSet을-통한-애니메이션-적용/)
 
-- [Android DrawerLayout 적용해보기](https://sulfurbottom.netlify.com/posts/Android-DrawerLayout-적용해보기/)
+- [Android DrawerLayout 적용해보기](https://sulfurbottom.netlify.com/Android/Android-DrawerLayout-적용해보기/)
 
-- [Android RecyclerView Data Observer](https://sulfurbottom.netlify.com/posts/Android-RecyclerView-Data-Observer/)
+- [Android RecyclerView Data Observer](https://sulfurbottom.netlify.com/Android/Android-RecyclerView-Data-Observer/)
 
-- [Kotlin Built-In 함수 활용법 정리(filter, map, let, apply, also)](https://sulfurbottom.netlify.com/posts/Kotlin-Built-In-함수-활용법-정리/)
+- [Kotlin Built-In 함수 활용법 정리(filter, map, let, apply, also)](https://sulfurbottom.netlify.com/Development/Kotlin-Built-In-함수-활용법-정리/)
