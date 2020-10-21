@@ -17,15 +17,19 @@ category: 'Android'
 
 ### Architecture
 
-- [Android Koin-ViewModel-Room 적용해보기](https://sulfurbottom.netlify.com/Android/Android-Koin-ViewModel-Room-적용해보기/)
-  - 해당 포스트는 내용을 세분화할 예정
-  - Android에서 Room 적용해보기
-  - Android에서 Koin을 활용한 MVVM 적용해보기
-  - Koin을 활용한 Fragment 간 ViewModel 공유하기
-- Android Databinding 적용해보기
-  - RecylcerView에도 데이터바인딩 적용해보기
-  - Two-way Databinding 적용해보기
-- [Android의 LiveData와 MediatorLiveData](https://sulfurbottom.netlify.com/Android/Android의-LiveData와-MediatorLiveData/)
+- ~~[Android Koin-ViewModel-Room 적용해보기](https://sulfurbottom.netlify.com/Android/Android-Koin-ViewModel-Room-적용해보기/)~~
+
+- [Android Project에서 Koin 적용하기](https://sulfurbottom.netlify.com/Android/android-project에-koin-적용하기)
+- [Android Project에 Room 적용하기](https://sulfurbottom.netlify.com/Android/android-project에-room-적용하기)
+- [Andoird Project에 Repository 패턴 적용하기](https://sulfurbottom.netlify.com/Android/android-project에-repository-패턴-적용하기)
+- [Android Project에 Retrofit 적용하기](https://sulfurbottom.netlify.com/Android/)
+- [Android Project에 ViewModel 적용하기](https://sulfurbottom.netlify.com/Android/)
+
+### Databinding
+
+- [Android Databinding 적용해보기](https://sulfurbottom.netlify.com/Android/android-databinding-적용해보기)
+- [RecylcerView에도 Databinding 적용해보기](https://sulfurbottom.netlify.com/Android/recyclerview에도-databinding-적용해보기)
+- [Two-way Databinding 적용해보기](https://sulfurbottom.netlify.com/Android/two-way-databinding-적용해보기)
 
 ### UI
 
@@ -33,12 +37,18 @@ category: 'Android'
 - [Android RecyclerView Data Observer](https://sulfurbottom.netlify.com/Android/Android-RecyclerView-Data-Observer/)
 - [Android RecyclerView XML 미리보기](https://sulfurbottom.netlify.com/Android/Android-RecyclerView-XML-미리보기/)
 - [Android RecyclerView에 좌우 Swipe + Backgroud 적용해보기](https://sulfurbottom.netlify.com/Android/Android-RecyclerView에-좌우-Swipe-Backgroud-적용해보기/)
-- Android Custom View 제작해보기
+- [Android Custom View 제작해보기](https://sulfurbottom.netlify.com/Android/android-custom-view-제작해보기)
 - [Android Fragment와 ViewPager2를 활용한 화면 구성하기](https://sulfurbottom.netlify.com/Android/android-fragment와-viewpager2를-활용한-화면-구성하기)
 - [ActivityResultLauncher 활용해보기](https://sulfurbottom.netlify.com/Android/activityresultlauncher-활용해보기)
 - [Android SwipeRefreshLayout 적용 후기](https://sulfurbottom.netlify.com/Android/Android-SwipeRefreshLayout-적용-후기/)
 - [Android ConstraintSet을 통한 애니메이션 적용](https://sulfurbottom.netlify.com/Android/Android-ConstraintSet을-통한-애니메이션-적용/)
 - [Android DrawerLayout 적용해보기](https://sulfurbottom.netlify.com/Android/Android-DrawerLayout-적용해보기/)
+- [Android Dialog 생성해보기](https://sulfurbottom.netlify.com/Android/android-dialog-생성해보기)
+
+### Material Design
+
+- [Material App Bar 적용하기](https://sulfurbottom.netlify.com/Android/material-app-bar-적용하기)
+- [Android Date Picker Dialog 생성하고 적용하기](https://sulfurbottom.netlify.com/Android/android-date-picker-dialog-생성하고-적용하기)
 
 ### Debugging
 
@@ -47,5 +57,6 @@ category: 'Android'
 ### ETC
 
 - [Android Studio에서 유용한 플러그인 모음](https://sulfurbottom.netlify.com/Android/android-studio에서-유용한-플러그인-모음)
+- [Android의 LiveData와 MediatorLiveData](https://sulfurbottom.netlify.com/Android/Android의-LiveData와-MediatorLiveData/)
 - [Android GPS Location 획득하기](https://sulfurbottom.netlify.com/Android/android-gps-location-획득하기)
 - [Kotlin Built-In 함수 활용법 정리(filter, map, let, apply, also)](https://sulfurbottom.netlify.com/Development/Kotlin-Built-In-함수-활용법-정리/)

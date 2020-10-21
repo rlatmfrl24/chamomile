@@ -87,15 +87,12 @@ fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
 //위치 데이터 요청
 fusedLocationClient.lastLocation.addOnSuccessListener { location ->
     location?.let {
-        Timber.v("diver:/ LL updated")
         mainViewModel.updateCurrentLL(it.latitude, it.longitude)
     }
 }.addOnFailureListener {
-    Timber.v("diver:/ ${it.localizedMessage}")
     mainViewModel.getRecentLL().also { LL->
         mainViewModel.updateCurrentLL(LL.first.toDouble(), LL.second.toDouble())
     }
-    Timber.v("diver:/ ${it.localizedMessage}")
 }
 
 ```
