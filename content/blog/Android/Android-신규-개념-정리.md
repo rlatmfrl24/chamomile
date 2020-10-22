@@ -17,13 +17,11 @@ category: 'Android'
 
 ### Architecture
 
-- ~~[Android Koin-ViewModel-Room 적용해보기](https://sulfurbottom.netlify.com/Android/Android-Koin-ViewModel-Room-적용해보기/)~~
-
 - [Android Project에서 Koin 적용하기](https://sulfurbottom.netlify.com/Android/android-project에-koin-적용하기)
 - [Android Project에 Room 적용하기](https://sulfurbottom.netlify.com/Android/android-project에-room-적용하기)
 - [Andoird Project에 Repository 패턴 적용하기](https://sulfurbottom.netlify.com/Android/android-project에-repository-패턴-적용하기)
-- [Android Project에 Retrofit 적용하기](https://sulfurbottom.netlify.com/Android/)
-- [Android Project에 ViewModel 적용하기](https://sulfurbottom.netlify.com/Android/)
+- [Android Project에 Retrofit 적용하기](https://sulfurbottom.netlify.com/Android/retrofit2를-android에-적용시킬때-알아야하는-것들)
+- [Android Project에 ViewModel 적용하기](https://sulfurbottom.netlify.com/Android/android-project에-viewmodel-적용하기)
 
 ### Databinding
 
