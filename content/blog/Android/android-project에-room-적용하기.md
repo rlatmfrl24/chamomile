@@ -17,7 +17,7 @@ draft: false
 
 App 단위 Gradle에 다음과 같이 라이브러리를 추가한다.
 
-```gradle
+```groovy
 def room_version = "2.2.5"
 
 implementation "androidx.room:room-runtime:$room_version"
@@ -31,7 +31,7 @@ kapt "androidx.room:room-compiler:$room_version"
 
 `User.kt`
 
-```kt
+```kotlin
 @Entity(tableName="tb_user")
 data class User {
     @PrimaryKey var id: Int,
@@ -46,7 +46,7 @@ DAO Interface를 정의하여 Database에서 해당 Entity에 접근하기 위�
 
 `UserDao.kt`
 
-```kt
+```kotlin
 @Dao
 interface UserDao {
     @Query("SELECT * FROM user")
@@ -69,7 +69,7 @@ interface UserDao {
 
 `AppDatabase.kt`
 
-```kt
+```kotlin
 @Database(entities = arrayOf(User::class), version = 1)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun userDao(): UserDao
@@ -82,7 +82,7 @@ abstract class AppDatabase : RoomDatabase() {
 
 `AppModule.kt`
 
-```kt
+```kotlin
 single {
     Room.databaseBuilder(
         get(),
@@ -105,7 +105,7 @@ single { get<AppDatabase>().UserDao() }
 
 `AppModule.kt`
 
-```kt
+```kotlin
 single { get<AppDatabase>().UserDao() }
 
 // User Repository 객체에 User DAO 주입

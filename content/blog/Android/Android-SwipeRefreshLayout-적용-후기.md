@@ -11,7 +11,7 @@ Material Design에서 많이 쓰이는 _Swipe to Refresh_ 개념을 Android 상�
 
 ### gradle 추가
 
-```gradle
+```groovy
 
 implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha03'
 

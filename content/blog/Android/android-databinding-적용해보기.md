@@ -17,7 +17,7 @@ App 단위 Gradle에서 Databinding을 활성화시켜준다.
 
 `build.gradle(app)`
 
-```gradle
+```groovy
 buildFeatures {
     dataBinding = true
 }

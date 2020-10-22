@@ -13,7 +13,7 @@ draft: false
 
 사용자의 위치 권한 획득을 위한 Dependency 설정은 다음과 같다.
 
-```gradle
+```groovy
 //Google Play Service - Location API
 implementation "com.google.android.gms:play-services-location:17.0.0"
 ```

@@ -17,7 +17,7 @@ Android Project에서 가장 많이 쓰이는 DI 라이브러리는 **Dagger2**,
 
 App 단위 Gradle에 Koin 라이브러리를 추가한다.
 
-```gradle
+```groovy
 //Koin
 implementation "org.koin:koin-core:2.0.1"
 implementation "org.koin:koin-android:2.0.1"
@@ -30,7 +30,7 @@ implementation "org.koin:koin-androidx-viewmodel:2.0.1"
 
 `App.kt`
 
-```kt
+```kotlin
 class App : Application(){
     override fun onCreate() {
         super.onCreate()
@@ -45,7 +45,7 @@ class App : Application(){
 
 `AppModule.kt`
 
-```kt
+```kotlin
 val AppModule = module {
     // 여기에 의존성 라이브러리 추가 및 ViewModel 적용
     ...

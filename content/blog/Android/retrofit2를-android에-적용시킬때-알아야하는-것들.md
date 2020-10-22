@@ -17,7 +17,7 @@ Retrofit2 활용을 위한 라이브러리 설치는 다음과 같다.
 
 > App.gradle
 
-```gradle
+```groovy
 //Retrofit
 implementation 'com.squareup.retrofit2:retrofit:2.7.1'
 implementation 'com.squareup.retrofit2:converter-gson:2.7.1'
@@ -47,7 +47,7 @@ java.lang.BootstrapMethodError: Exception from call site #1 bootstrap method
 
 > App.gradle
 
-```gradle
+```groovy
 android {
     defaultConfig { ... }
     buildTypes { ... }

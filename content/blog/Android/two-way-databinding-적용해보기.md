@@ -47,7 +47,7 @@ Android 차원에서 기본적으로 양방향 데이터바인딩을 지원하�
 
 `BindingAdapter.kt`
 
-```kt
+```kotlin
 object BindingAdapter {
 
     //Custom View Binding

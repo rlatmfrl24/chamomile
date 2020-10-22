@@ -39,7 +39,7 @@ override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) 
 
 1. **Gradle Dependency**에 다음을 추가한다.
 
-```gradle
+```groovy
 implementation 'androidx.activity:activity-ktx:1.2.0-alpha02'
 implementation 'androidx.fragment:fragment-ktx:1.3.0-alpha02'
 ```
