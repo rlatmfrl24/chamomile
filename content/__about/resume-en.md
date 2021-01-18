@@ -71,9 +71,9 @@ HTML Source를 DOM-based 기반 구조를 통하여 분석하여 해당 Source�
 - **Role** : TF-IDF 알고리즘 구현, RMI Server 구축 및 검색엔진 구축 담당, Word2Vec 모듈 마이그레이션 담당, RMI Client JAR 배포
 - **Skills** : Java, RMI, [NLP(KoNLPy)](https://konlpy-ko.readthedocs.io/ko/v0.4.3/), [TF-IDF Algorithm](https://ko.wikipedia.org/wiki/Tf-idf), [Word2Vec](https://en.wikipedia.org/wiki/Word2vec), [Solr](https://lucene.apache.org/solr/)
 
-### 3. Freight Forwarding Applicatopn
+### 3. Freight Forwarding Android Application
 
-해운물류업에서 활용하는 Freight 거래 플랫폼 전용 Android Application 개발 참여
+해운물류업에서 활용되는 Freight 거래 플랫폼 전용 Android Application 개발 참여
 
 <p align="center">
 <img src='./images/freight9-1.gif' width='100px'>&emsp;
@@ -85,13 +85,44 @@ HTML Source를 DOM-based 기반 구조를 통하여 분석하여 해당 Source�
 <img src='./images/freight9-7.gif' width='100px'>&emsp;
 </p>
 
-- **Duration** : 2018-10 ~ (진행중)
-- **Role** : Sign-In 모듈 및 화면 개발 담당, Port 선택 및 즐겨찾기 모듈 및 화면 개발 담당, GitLab 관리 담당
+- **Duration** : 2018-10 ~ 2021-04
+- **Role** : Port 선택 및 즐겨찾기 모듈 및 화면 개발 담당, GitLab 관리 담당
 - **Skills** : RxKotlin, Dagger2, Room, Retrofit, RxLifeCycle, Stetho, Timber
   - Lottie, Retrofit을 활용한 Login Module 구현
   - RxKotlin, RxLiftCycle을 활용한 Rx 프로그래밍
   - Treeview Library를 활용한 계층형 List 구현
   - ViewPager2-TabLayout를 활용한 Route 선택 화면 구현
+
+### 4. Freight Forwarding Web
+
+해운물류업에서 활용되는 Freight 거래 플랫폼 전용 Web 개발 참여
+
+<p align="center">
+<img src='./images/freight9-web-1.png' width='300px'>&emsp;
+<img src='./images/freight9-web-2.png' width='300px'>&emsp;
+<img src='./images/freight9-web-3.png' width='300px'>&emsp;
+<img src='./images/freight9-web-4.png' width='300px'>&emsp;
+<img src='./images/freight9-web-5.png' width='300px'>&emsp;
+
+</p>
+
+- **Duration** : 2020-10 ~ 2021-04
+- **Role** : Trade 상품 등록 화면, Booking 신청 및 조회 화면 개발 담당
+- **Skills** : ReactJS, MobX, Javascript
+  - Publishing 완료된 Booking 신청 및 조회 화면에 Javascript를 통해 데이터 연결 및 제어 개발 담당
+  - ReactJS를 활용하여 Trade 상품 등록 개발 담당
+  - Selenium 및 Python을 활용한 자동 상품 등록 모듈 개발 담당
+
+### 5. Dangerous Goods Inspection Management System
+
+해운물류업계에서 사용되는 위험물 검사 신청 시스템에 활용되는 Android Application Mock-up 개발 담당
+
+- **Duration** : 2020-09 ~ 2020-12
+- **Role** : Androidp Application Mock-up 전체 개발
+- **Skills** : MVVM Architecture, Databinding, Koin, Timber, Room, Retrofit, Lottie
+  - MVVM Architecture를 활용한 프로젝트 구조 설계
+  - 화주, 검사원, 선사용 화면 개발 및 연동 개발
+  - Blockchain 모듈 및 Application 연동 개발
 
 ## Personal Projects
 
