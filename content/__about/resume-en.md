@@ -38,7 +38,6 @@ Konkuk University, Computer Engineering, Software Engineering
   <a href='https://mobx.js.org/README.html'><img src='../assets/logo/mobx.svg' height='40' width=40 title='MobX'></a>&emsp;
   <a href='https://www.gatsbyjs.org/'><img src='../assets/logo/gatsby.svg' height='40' width=40 title='Gatsby'></a>&emsp;
   <a href='https://www.djangoproject.com/'><img src='../assets/logo/django.svg' height='40' width=40 title='Django'></a>&emsp;
-  <a href='https://www.tensorflow.org/?hl=ko'><img src='../assets/logo/tensorflow.svg' height='40' width=40 title='Tensorflow'></a>&emsp;
 
 * **Databases**
 
