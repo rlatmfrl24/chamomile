@@ -116,6 +116,11 @@ HTML Source를 DOM-based 기반 구조를 통하여 분석하여 해당 Source�
 
 해운물류업계에서 사용되는 위험물 검사 신청 시스템에 활용되는 Android Application Mock-up 개발 담당
 
+[![예제](./images/imdg-1.jpg)](https://youtu.be/VsKC5VWjblo) 
+
+**클릭하면 시연 동영상을 보실수 있습니다**
+
+
 - **Duration** : 2020-09 ~ 2020-12
 - **Role** : Androidp Application Mock-up 전체 개발
 - **Skills** : MVVM Architecture, Databinding, Koin, Timber, Room, Retrofit, Lottie
