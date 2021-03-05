@@ -22,6 +22,8 @@ category: 'Android'
 - [Andoird Project에 Repository 패턴 적용하기](https://sulfurbottom.netlify.com/Android/android-project에-repository-패턴-적용하기)
 - [Android Project에 Retrofit 적용하기](https://sulfurbottom.netlify.com/Android/retrofit2를-android에-적용시킬때-알아야하는-것들)
 - [Android Project에 ViewModel 적용하기](https://sulfurbottom.netlify.com/Android/android-project에-viewmodel-적용하기)
+- **(심화) Room Database에 1:N 관계 정의하기 (예정)**
+- **(심화) Binding Adapter와 Type Converter (예정)**
 
 ### Databinding
 
@@ -42,11 +44,13 @@ category: 'Android'
 - [Android ConstraintSet을 통한 애니메이션 적용](https://sulfurbottom.netlify.com/Android/Android-ConstraintSet을-통한-애니메이션-적용/)
 - [Android DrawerLayout 적용해보기](https://sulfurbottom.netlify.com/Android/Android-DrawerLayout-적용해보기/)
 - [Android Dialog 생성해보기](https://sulfurbottom.netlify.com/Android/android-dialog-생성해보기)
+- **Navigation API를 활용한 Fragment간 이동 구현 (예정)**
 
 ### Material Design
 
 - [Material App Bar 적용하기](https://sulfurbottom.netlify.com/Android/material-app-bar-적용하기)
 - [Android Date Picker Dialog 생성하고 적용하기](https://sulfurbottom.netlify.com/Android/android-date-picker-dialog-생성하고-적용하기)
+- **Material UI를 활용한 Transition 적용하기 (예정)**
 
 ### Debugging
 

@@ -22,6 +22,11 @@ Dialog(requireContext(), android.R.style.Theme_Black_NoTitleBar_Fullscreen).appl
 }.show()
 ```
 
+## [Material Diaglogs](https://github.com/afollestad/material-dialogs) Library
+
+위의 구현처럼 Android에서 Dialog API를 제공하지만, 해당 라이브러리를 사용하면 보다 간편하게 Dialog를 작성할 수 있다.
+특히나 Bottom Sheets가 매우 매력적인 기능이니 필요하다면 고려해보는 것이 좋다
+
 ## 후기
 
 이런 Dialog와 별개로 [Material.io](https://material.io)에서 지원하는 Date Picker 도 존재한다.
