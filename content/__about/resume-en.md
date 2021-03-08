@@ -35,6 +35,7 @@ Konkuk University, Computer Engineering, Software Engineering
   <a href='https://nodejs.org/ko/'><img src='../assets/logo/nodejs.svg' height='40' width=40 title='NodeJS'></a>&emsp;
   <a href='https://expressjs.com/ko/'><img src='../assets/logo/expressjs.svg' height='40' width=40 title='ExpressJS'></a>&emsp;
   <a href='https://ko.reactjs.org/'><img src='../assets/logo/react.svg' height='40' width=40 title='React'></a>&emsp;
+  <a href='https://nextjs.org/'><img src='../assets/logo/Nextjs-logo.svg' height='40' width=40 title='React'></a>&emsp;
   <a href='https://mobx.js.org/README.html'><img src='../assets/logo/mobx.svg' height='40' width=40 title='MobX'></a>&emsp;
   <a href='https://www.gatsbyjs.org/'><img src='../assets/logo/gatsby.svg' height='40' width=40 title='Gatsby'></a>&emsp;
   <a href='https://www.djangoproject.com/'><img src='../assets/logo/django.svg' height='40' width=40 title='Django'></a>&emsp;
@@ -91,6 +92,8 @@ HTML Source를 DOM-based 기반 구조를 통하여 분석하여 해당 Source�
   - RxKotlin, RxLiftCycle을 활용한 Rx 프로그래밍
   - Treeview Library를 활용한 계층형 List 구현
   - ViewPager2-TabLayout를 활용한 Route 선택 화면 구현
+  - ListAdapter를 활용한 RecyclerView 구현
+  - RecylcerView Drag & Drop 구현
 
 ### 4. Freight Forwarding Web
 
@@ -123,10 +126,15 @@ HTML Source를 DOM-based 기반 구조를 통하여 분석하여 해당 Source�
 
 - **Duration** : 2020-09 ~ 2020-12
 - **Role** : Androidp Application Mock-up 전체 개발
-- **Skills** : MVVM Architecture, Databinding, Koin, Timber, Room, Retrofit, Lottie
+- **Skills** : MVVM Architecture, Databinding, Koin, Timber, Room, Retrofit, Lottie, Dexter
   - MVVM Architecture를 활용한 프로젝트 구조 설계
   - 화주, 검사원, 선사용 화면 개발 및 연동 개발
   - Blockchain 모듈 및 Application 연동 개발
+  - Databinding 적용
+  - Koin을 활용한 DI Framework 적용
+  - Room을 활용한 Local DB 활용 및 내부 검색 모듈 구현
+  - Retrofit & Okhttp를 활용한 API 통신 모듈 구현
+  - Dexter를 활용한 Permission 모듈 구현
 
 ## Personal Projects
 
@@ -150,6 +158,50 @@ HTML Source를 DOM-based 기반 구조를 통하여 분석하여 해당 Source�
   - React-MobX를 활용한 Data Store 구현
   - Gestalt Library를 활용한 Web UI 구현
 - **References** : [Back-End](https://github.com/rlatmfrl24/applemint-firebase), [Web](https://rlatmfrl24.github.io/applemint-web), [Android](https://rlatmfrl24.github.io/applemint)
+
+
+### 2. Craftman Bartender
+
+조주기능사 실기시험 모의테스트용 연습용 앱
+<p align="center">
+<img src='./images/cmb-1.jpg' width='200px'>&emsp;
+<img src='./images/cmb-2.jpg' width='200px'>&emsp;
+<img src='./images/cmb-3.jpg' width='200px'>&emsp;
+<img src='./images/cmb-4.jpg' width='200px'>&emsp;
+<img src='./images/cmb-5.jpg' width='200px'>&emsp;
+<img src='./images/cmb-6.jpg' width='200px'>&emsp;
+</p>
+
+- **Duration** : 1 months
+- **Skills** : AndroidX, MVVM, Koin, Room, Coroutine, Firebase, Material UI
+  - Firebase를 활용한 Serverless Back-End 구현
+  - Koin를 활용한 MVVM Architecture 적용
+  - Coroutine을 활용한 비동기 프로세스 처리
+  - Room을 활용한 Local DB 적용
+  - Databinding 적용
+  - Material UI를 활용한 UI Framework 적용
+- **References** : [Android](https://github.com/rlatmfrl24/CraftsmanBartender)
+
+### 3. Meerkat (Linked Stock Service)
+
+[https://meerkat-smtp.web.app/](https://meerkat-smtp.web.app/)
+
+RSS를 통해 기사를 수집하고 해당 기사와 연관된 키워드를 매칭시키고 매칭된 키워드과 연관된 주식을 보여주며 해당 주식의 영향도를 보여주는 Web Service
+
+<p align="center">
+<img src='./images/meerkat-1.png' width='300px'>&emsp;
+<img src='./images/meerkat-2.png' width='300px'>&emsp;
+</p>
+
+- **Duration** : 2 weeks
+- **Skills** : Typescript, Next.JS, Semantic-UI React, Recoil, Firebase
+  - Firebase를 활용한 Serverless Back-End 구현
+  - Firebase Functions을 활용한 RSS 수집 및 매칭 모듈 구현
+  - Next.JS를 활용한 Web 화면 구성
+  - Recoil을 활용한 Data Store 구축
+  - Semantic UI React를 활용한 UI Framework 구축 및 활용
+- **References** : [Firebase+Web](https://github.com/smtp-ku/Meerkat)
+
 
 ## Contact Me
 
