@@ -164,12 +164,12 @@ HTML Source를 DOM-based 기반 구조를 통하여 분석하여 해당 Source�
 
 조주기능사 실기시험 모의테스트용 연습용 앱
 <p align="center">
-<img src='./images/cmb-1.jpg' width='200px'>&emsp;
-<img src='./images/cmb-2.jpg' width='200px'>&emsp;
-<img src='./images/cmb-3.jpg' width='200px'>&emsp;
-<img src='./images/cmb-4.jpg' width='200px'>&emsp;
-<img src='./images/cmb-5.jpg' width='200px'>&emsp;
-<img src='./images/cmb-6.jpg' width='200px'>&emsp;
+<img src='./images/cmb-1.jpg' width='100px'>&emsp;
+<img src='./images/cmb-2.jpg' width='100px'>&emsp;
+<img src='./images/cmb-3.jpg' width='100px'>&emsp;
+<img src='./images/cmb-4.jpg' width='100px'>&emsp;
+<img src='./images/cmb-5.jpg' width='100px'>&emsp;
+<img src='./images/cmb-6.jpg' width='100px'>&emsp;
 </p>
 
 - **Duration** : 1 months
