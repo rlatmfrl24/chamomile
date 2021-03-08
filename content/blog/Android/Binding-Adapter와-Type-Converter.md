@@ -19,7 +19,7 @@ Binding Adapter와 Type Converter는 완전히 다른 개념이지만, 개인적
 
 나는 프로젝트 제작 당시에 **Enum**을 Entity에 적용하여 데이터 클래스를 다음과 같이 만들었다.
 
-```kt
+```kotlin
 @Parcelize
 @Entity
 data class Recipe(
@@ -40,7 +40,7 @@ data class Recipe(
 ```
 해당 Entity의 `primaryMakingStyle`과 `secondaryMakingStyle`은 `MakingStyle`이라는 Enum Class를 자료형으로 사용하는 필드이다.
 
-```kt
+```kotlin
 enum class MakingStyle {
     Build,
     Stir,
@@ -57,7 +57,7 @@ enum class MakingStyle {
 기본적으로 Room Database는 기본 자료형이 아닌 Custom 자료형을 지원하지 않기 때문에, 해당 자료형을 포함한 Entity에 대한 Type Convertor를 요구한다.
 
 따라서 이를 위한 Type Convertor를 다음과 같이 정의해준다.
-```kt
+```kotlin
 import androidx.room.TypeConverter
 
 companion object {
@@ -79,7 +79,7 @@ companion object {
 ```
 이렇게 정의한 Type Convertor를 다음과 같이 Room Database에서 적용시켜준다.
 
-```kt
+```kotlin
 @Database(entities = [Recipe::class, Ingredient::class], version = 2)
 @TypeConverters(Constants.Companion.Converters::class)
 abstract class AppDatabase: RoomDatabase() {
@@ -98,7 +98,7 @@ abstract class AppDatabase: RoomDatabase() {
 
 이를 해소하기 위하여 Databinding에서 Binding Adapter를 다음과 같이 정의해준다.
 
-```kt
+```kotlin
 class BindingAdapter {
     object MakingStyleConverter {
         @BindingAdapter("text")

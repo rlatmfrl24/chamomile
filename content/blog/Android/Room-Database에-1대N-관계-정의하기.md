@@ -13,7 +13,7 @@ Room Database를 활용하여 데이터 모델링을 하다보면, Entity간에 
 
 일단 이해를 돕기 위하여 실제로 적용했던 프로젝트의 데이터 모델링 예시를 그대로 들고 왔다.
 
-```kt
+```kotlin
 @Parcelize
 @Entity
 data class Recipe(
@@ -36,7 +36,7 @@ data class Recipe(
 해당 모델은 칵테일 레시피이며, 1:N 관계에서 '1'의 역할을 할 Entity이다.
 
 그리고 이 레시피와 연결될 'N'개의 재료 Entity는 다음과 같다.
-```kt
+```kotlin
 package com.soulkey.craftsmanbartender.lib.model
 
 import android.os.Parcelable
@@ -59,7 +59,7 @@ data class Ingredient(
 
 이로써 각각의 '레시피'와 '재료'의 Entity는 선언되었지만 이 두 Entity간의 관계를 정립되지 않았다. 따라서 이 두 Entity 간의 관계를 정의해주는 새로운 Entity를 정의한다.
 
-```kt
+```kotlin
 package com.soulkey.craftsmanbartender.lib.model
 
 import android.os.Parcelable
@@ -92,7 +92,7 @@ data class RecipeWithIngredient(
 ### 조회
 
 Entity를 조회하는 DAO는 다음과 같이 정의한다
-```kt
+```kotlin
 @Transaction
 @Query("SELECT * FROM Recipe")
 suspend fun getAllRecipes(): List<RecipeWithIngredient>
@@ -102,7 +102,7 @@ suspend fun getAllRecipes(): List<RecipeWithIngredient>
 
 ### 생성 및 수정
 
-```kt
+```kotlin
 @Transaction
 @Insert(onConflict = OnConflictStrategy.REPLACE)
 suspend fun createRecipe(recipe: Recipe, ingredients: List<Ingredient>){
@@ -130,7 +130,7 @@ suspend fun updateRecipeWithIngredient(recipe: Recipe, ingredients: List<Ingredi
 
 ### 삭제
 
-```kt
+```kotlin
 @Transaction
 @Delete
 suspend fun deleteRecipe(recipe: Recipe, ingredients: List<Ingredient>) {

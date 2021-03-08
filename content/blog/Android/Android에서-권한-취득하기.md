@@ -23,7 +23,7 @@ Android Project를 개발하다보면 기기의 권한을 취득해야하는 경
 </manifest>
 ```
 그리고 코드 레벨에서 유저에게 권한을 요청하는 코드 스니펫은 다음과 같다.
-```kt
+```kotlin
 when {
     ContextCompat.checkSelfPermission(
             CONTEXT,
@@ -60,7 +60,7 @@ dependencies{
 }
 ```
 
-```kt
+```kotlin
 Dexter.withContext(this)
 	.withPermission(Manifest.permission.CAMERA)
 	.withListener(new PermissionListener() {

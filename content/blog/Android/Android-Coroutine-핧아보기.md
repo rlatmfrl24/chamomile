@@ -25,7 +25,7 @@ Android에서는 이런 문제를 해결하기 위해, 러닝 커브가 낮고 �
 
 ## 적용
 
-```kt
+```kotlin
 suspend fun fetchDocs() {                             // Dispatchers.Main
     val result = get("https://developer.android.com") // Dispatchers.IO for `get`
     show(result)                                      // Dispatchers.Main
@@ -36,7 +36,7 @@ suspend fun get(url: String) = withContext(Dispatchers.IO) { /* ... */ }
 
 네트워크 호출과 같은 백그라운드에서 동작해야할 장기 작업을 `suspend` 키워드로 선언하여 비동기 함수로 만들고 다음과 같이 호출하여 사용한다.
 
-```kt
+```kotlin
 viewModelScope.launch {
     fetchDocs()
 }

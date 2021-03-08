@@ -36,7 +36,7 @@ Android 개발자는 UI를 구현하기 위한 많은 Custom View와 라이브�
 
 ### Activity A
 
-```kt
+```kotlin
 private val binding : ActivityRecipeBinding by lazy {
     DataBindingUtil.setContentView(this, R.layout.activity_recipe)
 }
@@ -58,7 +58,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 이제 화면전환을 통해 화면으로 들어오는 Activity B에는 다음과 같이 코드 스니펫을 추가한다.
 
-```kt
+```kotlin
 override fun onCreate(savedInstanceState: Bundle?) {
     window.requestFeature(Window.FEATURE_ACTIVITY_TRANSITIONS)
     setEnterSharedElementCallback(MaterialContainerTransformSharedElementCallback())
@@ -91,7 +91,7 @@ Activity A와 마찬가지로 `requestFeature`를 추가하고 `setEnterSharedEl
 
 만약 Shared Element가 없다면 좀더 단순한 방식으로 화면 전환을 적용할 수 있다.
 
-```kt
+```kotlin
 override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     enterTransition = MaterialFadeThrough()
