@@ -22,8 +22,9 @@ category: 'Android'
 - [Andoird Project에 Repository 패턴 적용하기](https://sulfurbottom.netlify.com/Android/android-project에-repository-패턴-적용하기)
 - [Android Project에 Retrofit 적용하기](https://sulfurbottom.netlify.com/Android/retrofit2를-android에-적용시킬때-알아야하는-것들)
 - [Android Project에 ViewModel 적용하기](https://sulfurbottom.netlify.com/Android/android-project에-viewmodel-적용하기)
-- **(심화) Room Database에 1:N 관계 정의하기 (예정)**
-- **(심화) Binding Adapter와 Type Converter (예정)**
+- [Android Coroutine 핧아보기](https://sulfurbottom.netlify.com/Android/Android-Coroutine-핧아보기)
+- [(심화) Room Database에 1:N 관계 정의하기](https://sulfurbottom.netlify.com/Android/Room-Database에-1대N-관계-정의하기)
+- [(심화) Binding Adapter와 Type Converter](https://sulfurbottom.netlify.com/Android/Binding-Adapter와-Type-Converter)
 
 ### Databinding
 
@@ -44,13 +45,13 @@ category: 'Android'
 - [Android ConstraintSet을 통한 애니메이션 적용](https://sulfurbottom.netlify.com/Android/Android-ConstraintSet을-통한-애니메이션-적용/)
 - [Android DrawerLayout 적용해보기](https://sulfurbottom.netlify.com/Android/Android-DrawerLayout-적용해보기/)
 - [Android Dialog 생성해보기](https://sulfurbottom.netlify.com/Android/android-dialog-생성해보기)
-- **Navigation API를 활용한 Fragment간 이동 구현 (예정)**
+- [Navigation API를 활용한 Fragment간 이동 구현](https://sulfurbottom.netlify.com/Android/Navigation-API를-활용한-Fragment간-이동-구현)
 
 ### Material Design
 
 - [Material App Bar 적용하기](https://sulfurbottom.netlify.com/Android/material-app-bar-적용하기)
 - [Android Date Picker Dialog 생성하고 적용하기](https://sulfurbottom.netlify.com/Android/android-date-picker-dialog-생성하고-적용하기)
-- **Material UI를 활용한 Transition 적용하기 (예정)**
+- [Material UI를 활용한 Transition 적용하기](https://sulfurbottom.netlify.com/Android/Material-UI를-활용한-Transition-적용하기)
 
 ### Debugging
 
@@ -61,4 +62,5 @@ category: 'Android'
 - [Android Studio에서 유용한 플러그인 모음](https://sulfurbottom.netlify.com/Android/android-studio에서-유용한-플러그인-모음)
 - [Android의 LiveData와 MediatorLiveData](https://sulfurbottom.netlify.com/Android/Android의-LiveData와-MediatorLiveData/)
 - [Android GPS Location 획득하기](https://sulfurbottom.netlify.com/Android/android-gps-location-획득하기)
+- [Android에서 권한 취득하기](https://sulfurbottom.netlify.com/Android/Android에서-권한-취득하기)
 - [Kotlin Built-In 함수 활용법 정리(filter, map, let, apply, also)](https://sulfurbottom.netlify.com/Development/Kotlin-Built-In-함수-활용법-정리/)
