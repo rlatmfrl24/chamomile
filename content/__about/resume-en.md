@@ -35,7 +35,7 @@ Konkuk University, Computer Engineering, Software Engineering
   <a href='https://nodejs.org/ko/'><img src='../assets/logo/nodejs.svg' height='40' width=40 title='NodeJS'></a>&emsp;
   <a href='https://expressjs.com/ko/'><img src='../assets/logo/expressjs.svg' height='40' width=40 title='ExpressJS'></a>&emsp;
   <a href='https://ko.reactjs.org/'><img src='../assets/logo/react.svg' height='40' width=40 title='React'></a>&emsp;
-  <a href='https://nextjs.org/'><img src='../assets/logo/Nextjs-logo.svg' height='40' width=40 title='React'></a>&emsp;
+  <a href='https://nextjs.org/'><img src='../assets/logo/Nextjs-logo.svg' height='40' width=40 title='NextJS'></a>&emsp;
   <a href='https://mobx.js.org/README.html'><img src='../assets/logo/mobx.svg' height='40' width=40 title='MobX'></a>&emsp;
   <a href='https://www.gatsbyjs.org/'><img src='../assets/logo/gatsby.svg' height='40' width=40 title='Gatsby'></a>&emsp;
   <a href='https://www.djangoproject.com/'><img src='../assets/logo/django.svg' height='40' width=40 title='Django'></a>&emsp;
