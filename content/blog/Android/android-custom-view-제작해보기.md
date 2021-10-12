@@ -50,7 +50,6 @@ class CustomView(context: Context, attributeSet: AttributeSet?) : ConstraintLayo
 다시 **Custom View**의 선언부로 돌아와서 *Resources*에 설정해둔 속성값을 View에 적용시켜야 한다.
 
 ```kotlin
-
 class CustomView(...) : ConstraintLayout(...){
     ...
 
@@ -76,7 +75,6 @@ class CustomView(...) : ConstraintLayout(...){
 
 ```xml
 ...
-
 <com.soulkey.test.lib.view.CustomView
     android:id="@+id/custom_view_test"
     android:layout_width="0dp"
