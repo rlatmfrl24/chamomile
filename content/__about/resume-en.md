@@ -136,6 +136,28 @@ HTML Source를 DOM-based 기반 구조를 통하여 분석하여 해당 Source�
   - Retrofit & Okhttp를 활용한 API 통신 모듈 구현
   - Dexter를 활용한 Permission 모듈 구현
 
+### 6. Container Mobile M&R System
+Container M&R 센터에 입고되는 컨테이너의 인식 넘버를 촬영한 이미지에 문자인식을 수행하여 컨테이너 정보를 받아와 수리 내역 및 입고 상황을 관리해주는 시스템 개발
+
+<p align="center">
+<img src='./images/mnr_1.png' width='200px'>&emsp;
+<img src='./images/mnr_2.png' width='200px'>&emsp;
+<img src='./images/mnr_3.png' width='200px'>&emsp;
+<img src='./images/mnr_4.png' width='200px'>&emsp;
+<img src='./images/mnr_5.png' width='200px'>&emsp;
+</p>
+
+- **Duration** : 2021-05 ~ 2022-02
+- **Role** : Android Application 개발
+- **Skills** : MVVM Architecture, Databinding, Koin, Timber, Room, Retrofit, Dexter, Camera API
+     - 이미지 문자 인식 라이브러리(ConPDS) 검토 및 적용
+   - 인식된 컨테이너 넘버를 활용하여 서버로부터 Container 정보와 수리 상황 및 내역을 받는 기능 구현
+   - 컨테이너의 구역별 수리 상황 및 수리 요청 사항을 기록할 수 있도록 해주는 UI 구현
+   - 컨테이너 수리 상황 변동에 따른 관련 사용자에게 알림 서비스 지원 기능 구현
+   - Android Camera API를 활용한 사진 촬영 및 이미지 처리 모듈 개발
+   - Retrofit을 활용한 REST-API 연결
+   - Room DB와 Databinding을 활용한 CRUD 수행 및 실시간 업데이트 UI 적용
+   - Dexter를 활용한 Permission 관리 및 권한 취득 프로세스 구현
 ## Personal Projects
 
 ### 1. Article Crawl & Management System
@@ -201,6 +223,28 @@ RSS를 통해 기사를 수집하고 해당 기사와 연관된 키워드를 매
   - Recoil을 활용한 Data Store 구축
   - Semantic UI React를 활용한 UI Framework 구축 및 활용
 - **References** : [Firebase+Web](https://github.com/smtp-ku/Meerkat)
+
+### 4. Don't Panic (Metaverse Tutoring Platform)
+현대크래들 주관 오픈 이노베이션 플랫폼(**제로원데이 2021**) 크리에이터 부문 출품작
+
+대면교육의 경험을 충분히 담아내기 어려운 온라인 교육 환경에 대한 개선을 위한 메타버스 플랫폼 개발
+
+<p align="center">
+<img src='./images/dontpanic_1.png' width='300px'>&emsp;
+<img src='./images/dontpanic_2.png' width='300px'>&emsp;
+<img src='./images/dontpanic_3.png' width='300px'>&emsp;
+</p>
+
+- **Duration** : 2021-09 ~ 2021-11
+- **Skills** : Typescript, Next.JS, React, Recoil, Firebase
+  - Firebase를 활용한 Serverless 구현
+  - Next.JS를 활용한 Web 화면 구성
+  - Recoil을 활용한 Data Store 구축
+  - 객체 좌표 인식 및 키보드 입력을 통한 객체 위치 변화 기능 구현
+  - 화상 통화 및 실시간 채팅 라이브러리 적용 및 Customizing 수행
+  - 실시간 코드 공유 시스템 구축 및 UI 개발
+- **References** : [Site](http://zer01neday.com/2021/) / [Youtube](https://www.youtube.com/watch?v=4RTtzIPCmkw)
+
 
 
 ## Contact Me
